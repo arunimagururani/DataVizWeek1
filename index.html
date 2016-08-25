@@ -1,0 +1,59 @@
+<html>
+<head>
+	<title> DataViz Week1 </title>
+</head>
+<body>
+	<h1> Data Viz Week 1 lesson </h1>
+	
+		<script>
+				//This is my JavaScript. I'm going to write a program that describes bjects in a room.
+				//Then, I'm going to console log those objects.
+				//This program will inclue a string,a number, a boolean, an array and an object.
+				//This is a string. It describes my location.
+				
+			var mylocationString= "Jamia Millia";
+			console.log("The name of mylocationString is");
+			console.log(mylocationString);
+			console.log(typeof(mylocationString)); 
+			console.log(" ");
+				//This is a number. It describes the location of the Mass Communication Center
+			
+			var gateNumber=15;
+			console.log("The location of the Mass Communication Center is gate number");
+			console.log(gateNumber);
+			console.log(typeof(gateNumber));
+			var newGates="3";
+			var newGatesNumber= Number(newGates);
+			console.log("The sum of our gates is");
+			console.log(gateNumber+newGatesNumber);
+			console.log(gateNumber+newGates);
+			console.log (" ");
+				//This is a Boolean. It describes the city in which Jamia Millia is located.
+			var isInDelhi= true;
+			console.log(isInDelhi);
+			console.log(gateNumber<newGatesNumber);
+			console.log(" ");
+				//Now I'm going to create an array. The array will describe objects in the classroom.
+			var classroomArray=["Desk","chairs","table","computers"];
+			console.log(classroomArray);
+				//This is a variable for the length of my classroom array. It is one higher than the number of my last item.
+			var classroomArrayLength= classroomArray.length;
+			console.log(classroomArrayLength)
+			var lastItem= classroomArray[classroomArrayLength-1];
+			console.log(lastItem);
+			console.log(" ");
+				//Now I will create an object to describe the teacher.
+			
+			var teacher={
+			name:"Harry",
+			age:29,
+			hobbies:["basketball","chess","bike riding"]
+			};
+			console.log(teacher);
+			
+			var firstHobby=teacher.hobbies[0];
+			console.log(firstHobby);
+			
+			</script>
+</body>
+</html>
